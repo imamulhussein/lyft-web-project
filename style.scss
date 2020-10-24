@@ -2,14 +2,92 @@ body{
     margin: 0
 }
 // MOBILE
-@media screen and (max-width: 1023px)   {
-    .nav{
 
-    }
+@media screen and (max-width: 767px) {
+
 }
 
 // TABLET
+@media screen and (max-width: 1023px)   {
+    .nav__links{
+        width:85%!important;
+    }
+    .nav__links__elements{
+        display:none!important;
+    }
+    .nav__link__burger{
+        font-size: 28px;
+        font-weight:bold;
+        justify-content: center;
+        align-items: center;
+        display: flex!important;
+    }
 
+    .inline__cta__buttons{
+        flex-direction: column;
+        height:inherit;
+        z-index: 100;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        justify-content: flex-end;
+
+    }
+
+    .cta__button__signup{
+        display: none!important;
+        width:0;
+    }
+
+    .cta__button__apply{
+        display: none!important;
+        width:0;
+    }
+
+    .cta__button__signup__resp{  
+background-color:white;
+        border-radius:25px;
+        font-size:16px;
+        line-height:20px;
+        padding:14px 30px;
+        color:black;
+        display:flex!important;
+    }
+
+    .cta__button__apply__resp{
+        border-radius:25px;
+        font-size:16px;
+        line-height:20px;
+        border:1px solid white;
+        padding:14px 30px;
+        color:white;
+        display:flex!important;
+    }
+    
+    .bottom__links__elements_resp{
+        margin-bottom:20px!important;
+        }
+
+        .bottom__links__elements__resp2{
+            width:50%;
+            text-align: center;
+        }
+
+        .main__container__bottom__resp{
+            display:flex!important;
+            align-items:center;
+            justify-content:center;
+            margin-right:5%;
+            margin-left:5%;
+            height:80px!important;
+        }
+
+        .main__container__bottom{
+            display:none!important;
+        }
+
+    }
 
 
 
@@ -17,6 +95,7 @@ body{
 
 .nav {
     display: flex;
+    justify-content: center;
     height: 80px;
     width: 100%;
     border-bottom:1px solid var(--core-ui-theme-divider,rgba(216,216,228,1));
@@ -24,6 +103,10 @@ body{
 
 .nav__logo {
     width: 10%;
+}
+
+.nav__link__burger{
+    display:none;
 }
 
 #destination__search{
@@ -62,21 +145,22 @@ justify-content: center;
 
 .main__container__banner{
     width:100%;
-    height:580px;
+    height:600px;
     background-color:red
+}
+
+.main__container__bottom__resp{
+    display:none;
+
 }
 
 .main__container__bottom{
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:16px 0;
-    width:90%;
+    margin-right:5%;
+    margin-left:5%;
     height:80px;
-}
-
-.footer-bg{
-    background:linear-gradient(rgb(231, 231, 239) 0%, rgb(244, 244, 250) 5%, rgb(255, 255, 255) 10%);
 }
 
 .bottom__links__elements{
@@ -116,4 +200,66 @@ justify-content: center;
     border-radius:15px;
     background-color: rgb(218, 218, 218);
     padding:7px 10px;
+}
+
+.cta__button__apply__resp{
+    display:none;
+}
+
+.cta__button__signup__resp{
+    display:none;
+}
+
+
+.footer__bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgb(231, 231, 239) 0%, rgb(244, 244, 250) 5%, rgb(255, 255, 255) 10%);
+}
+.footer__body__section{
+    display:block;
+    width:20%;
+    padding: 8px 0px 0px;
+    padding-right:16px;
+}
+
+.footer__body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 73.33%;
+}
+
+.footer__body__section h2 {
+    padding:32px 0px 24px;
+}
+
+.footer__body__links{
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 0;
+}
+
+.footer__body__links li {
+    margin-bottom:8px;
+}
+.footer__body__btn__section{
+  margin-top: 50px;
+}
+
+.footer__body__section__btns{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    min-width: 100px;
+    padding: 0px 24px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.footer__bottom{
+    min-height:100px;
 }
