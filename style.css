@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid var(--core-ui-theme-divider, #d8d8e4);
+}
+
+.nav__logo {
+  width: 10%;
+}
+
+#destination__search {
+  border-radius: 6px;
+  border: 1px solid var(--core-ui-theme-stroke-secondary, rgba(12, 11, 49, 0.45));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  min-width: 330px;
+  height: 25%;
+}
+
+.nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 100%;
+  width: 75%;
+}
+
+.nav__search__bar {
+  padding-right: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__links__elements {
+  padding: 24px;
+  border-left: 1px solid var(--core-ui-theme-divider, #d8d8e4);
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__container__banner {
+  width: 100%;
+  height: 580px;
+  background-color: red;
+}
+
+.main__container__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px 0;
+  width: 90%;
+  height: 80px;
+}
+
+.footer-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e7e7ef), color-stop(5%, #f4f4fa), color-stop(10%, white));
+  background: linear-gradient(#e7e7ef 0%, #f4f4fa 5%, white 10%);
+}
+
+.bottom__links__elements {
+  width: 20%;
+  text-align: center;
+}
+
+.cta__button__signup {
+  background-color: blue;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 30px;
+  color: white;
+}
+
+.cta__button__signup:hover {
+  cursor: pointer;
+}
+
+.cta__button__apply {
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #000;
+  padding: 14px 30px;
+  color: black;
+}
+
+.cta__button__apply:hover {
+  cursor: pointer;
+  background-color: #dadada;
+}
+
+.cta__button:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #dadada;
+  padding: 7px 10px;
+}
+/*# sourceMappingURL=style.css.map */
