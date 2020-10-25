@@ -171,6 +171,9 @@ background-color:white;
     height: 80px;
     width: 100%;
     border-bottom:1px solid var(--core-ui-theme-divider,rgba(216,216,228,1));
+    position:fixed;
+    top:0;
+    background-color: white;
 }
 
 .nav__logo img{
@@ -233,6 +236,10 @@ justify-content: center;
 
 .main__container__banner{
 
+}
+
+.main__container{
+    margin-top:80px;
 }
 
 .main__container__bottom__resp{

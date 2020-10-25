@@ -200,6 +200,9 @@ body {
   height: 80px;
   width: 100%;
   border-bottom: 1px solid var(--core-ui-theme-divider, #d8d8e4);
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 .nav__logo img {
@@ -283,6 +286,10 @@ body {
 .nav__links__elements:hover {
   color: blue;
   cursor: pointer;
+}
+
+.main__container {
+  margin-top: 80px;
 }
 
 .main__container__bottom__resp {
