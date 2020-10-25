@@ -427,6 +427,11 @@ body {
   margin-bottom: 20px;
 }
 
+.footer__body__section__btns:hover {
+  background-color: #dadada;
+  cursor: pointer;
+}
+
 .footer__bottom {
   margin-right: 22.5%;
   margin-left: 18.5%;

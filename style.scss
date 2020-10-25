@@ -353,6 +353,11 @@ justify-content: center;
     margin-bottom: 20px;
 }
 
+.footer__body__section__btns:hover{
+    background-color: rgb(218, 218, 218);
+    cursor:pointer;
+}
+
 .footer__bottom{
     margin-right:22.5%;
     margin-left:18.5%;
@@ -380,3 +385,4 @@ justify-content: center;
 .footer__body__section__resp__header{
     display:none;
 }
+
