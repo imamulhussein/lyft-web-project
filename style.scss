@@ -5,6 +5,10 @@ body{
 // MOBILE
 
 @media screen and (max-width: 767px) {
+
+    .nav__logo{
+        justify-content: center!important;
+    }
 .footer__body{
     display:block!important;
     width:90%!important;
@@ -84,6 +88,10 @@ border-bottom:  1px solid grey;
         align-items: center;
         display: flex!important;
         margin-right: 20px;
+    }
+
+    .nav__logo{
+        justify-content: center!important;
     }
 
     .inline__cta__buttons{
@@ -186,7 +194,7 @@ background-color:white;
 }
 
 .nav__logo{
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     display:flex;
 }
